@@ -1,0 +1,461 @@
+body{
+    margin: 5;
+    background-color: white;
+    font-family: inherit;
+    
+}
+body a{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    background:white;
+    padding-top: 0px;
+    height: 100px;
+    border-bottom: blue 3px solid;   
+}
+header p{
+    color: rgb(2, 2, 2);
+    top: 2px;
+    margin-right: 20px;
+    font-size: 16px;
+    float: right;
+    line-height: 1.5;
+    font: 15px/1.5;
+}
+header a{
+    text-decoration: none;
+}
+header p img{
+    border-radius: 40px;
+}
+#mainbox{
+    font-size: 40px;
+    margin-left: 30px;
+}
+#mainbox:hover{
+  color: green;
+  cursor: pointer;
+}
+
+
+#title{
+    position: absolute;
+    top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+#search{
+    position: absolute;
+    top: 10px;
+    margin-left: 90%;
+    font-size: 0px;
+}
+#message{
+    position: absolute;
+    top: 10px;
+    margin-left: 85%;
+    font-size: 0px;
+}
+.sidemenu{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    height:80%;
+    width:0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding-top:70px;
+    overflow-x: hidden;
+    transition: all .5s;
+} 
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    display: block;
+}
+.sidemenu a:hover{
+    color:green;
+} 
+.sidemenu .closebtn{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;       
+}
+#introduction{
+    margin-left: 60px;
+    width: 80%;
+    font-family: inherit;
+    line-height: 1.0;
+    background-color: rgb(207, 236, 207);
+    padding-bottom: 30px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(44, 7, 252, 0.966);
+}
+#introduction h1{
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#introduction p{
+    font-size: 22px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+#introduction img{
+    border-radius: 50%;
+} 
+
+#introduction input{
+    font-weight: bold;
+    margin-bottom:5px;
+}
+#introduction input[type="email"],[type="text"],[type="password"],[type="number"],[type="file"]
+{
+    border-bottom: 1px solid rgb(22, 20, 20);
+    background: transparent;
+    outline: none;
+    color: black;
+    background-color: cornsilk;
+    font-size: 14px;
+    border: 1px solid #351313;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    width: 170px;
+    padding: 4px;
+}
+select{
+    border-bottom: 1px solid rgb(22, 20, 20);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: black;
+    background-color: cornsilk;
+    font-size: 14px;
+}
+.alert{
+    color: green;
+    margin-left: 75px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#introduction input[type="Submit"],[type="button"]
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    width: 170px;
+    padding: 4px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background:blue;
+    border: 1px solid white;
+    color:white;
+    font-size: 18px;
+}
+#introduction input[type="Submit"],[type="button"]:hover
+{   
+    cursor: pointer;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+.profile input[type="Submit"]:hover
+{
+    cursor: pointer;
+    background: green;
+    color: black;
+}
+.products{ 
+    height: 150px;
+}
+.service{
+    float:left;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin-left:30px;
+    padding-bottom: 70px;
+    }
+    .service b{
+        font-size: 30px;
+    }
+textarea{
+    resize: none;
+}
+#middle{
+    margin-left: 60px;
+    width: 80%;
+    padding-bottom: 30px;
+    background-color:white;
+        }
+#middle h1{
+    padding-left: 45px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.navig{
+    margin-left: 10px;
+}
+.navig td{
+    height: 25px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    border-radius:4px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.3);
+}
+.navig td:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+}
+.navig td a{
+    text-decoration: none;
+    color: white;
+}
+#introduction table{
+    margin-left: 55px;
+    padding-top: 1px;
+    font-size: 20px;
+}
+#introduction td{
+    padding-left:1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#introduction th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:1px;
+}
+table input{
+    background-color: aqua;
+    border-bottom: 1px solid rgb(22, 20, 20);
+    background: transparent;
+    outline: none;
+    color: blue;
+    font-size: 14px;
+    border:  aqua;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    padding: 4px;
+
+}
+table input:hover{
+    cursor: pointer;
+    color: Green;
+}
+
+#middle td{
+    padding-left:4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    font-size: 14px;
+    text-align: left;
+    background-color: aquamarine;
+}
+#middle th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:1px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+#middle p{
+    padding-left: 50px;
+    padding-top: 0px;
+    font-size: 10px;
+}
+#bottom{
+    box-shadow: 0 2px 5px rgba(44, 7, 252, 0.966);
+    margin-left: 60px;
+    width: 80%;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color:aquamarine;
+}
+#bottom h1{
+    padding-left: 45px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+#bottom p{
+
+    font-size: 22px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+#bottom img{
+   border-radius: 50%;
+}
+    .service b{
+        font-size: 30px;
+    }
+footer{
+    padding-top: 0px;
+    padding-left: 50px;
+    left:45px;
+ }
+ #footer{
+    margin-top: 30px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    margin-bottom: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ .fb{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 10px;
+    border-radius: 50%;
+   
+}
+.fb a{
+    color:white;
+}
+.tw{
+    background-color: cornflowerblue;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+.tw a{
+    color:white;
+}
+.ig{ 
+    background-color: rgb(228, 107, 127);
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 10px;
+    border-radius: 50%;
+}.ig a{
+    color:white;
+}
+
+  button {
+    border: none;
+    outline: none;
+    background: green;
+    color:white;
+    font-size: 18px;
+    font-family: inherit;
+    height: 25px;
+    width: 100px;
+}
+button:hover
+{
+    cursor: pointer;
+    background: blue;
+    color: white;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: green; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:rgb(207, 236, 207);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content p{
+    padding-left: 50px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.modal-content h1{
+    padding-left: 50px;
+    padding-top: 0px;
+    font-size: 30px;
+}
+.modal-content input[type="Submit"],[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background:blue;
+    border: 1px solid white;
+    color:white;
+    font-size: 18px;
+}
+.modal-content input[type="Submit"]:hover
+{
+    cursor: pointer;
+    background: green;
+    color: white;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: green;
+  cursor: pointer;
+}

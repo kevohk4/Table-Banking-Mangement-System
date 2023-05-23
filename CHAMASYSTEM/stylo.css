@@ -1,0 +1,75 @@
+.nav{
+    margin-left: 20px;
+    padding: 20px;
+}
+.nav td{
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.3);
+}
+.nav td:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.nav td a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.members th,td{
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+.members table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border:3px solid blue;
+}
+.members tbody tr:nth-child(odd) td{
+    background-color: #fff;
+}
+.members tbody tr:nth-child(even) td{
+    background-color: #eee;
+}
+.members th{
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+    letter-spacing:2%;
+}
+.members thead th{
+    width:15%;
+}
+.members h2{
+    padding: 3px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.members th{
+    height: 10px;
+    background-color: blue;
+}
+.services{
+    margin-left: 40px;
+    font-size: 16px;
+    background-color: blueviolet;
+    height: 70px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.3);
+
+}
+.services h2{
+    padding-top: 20px;
+    margin-left: 40px;
+
+}
