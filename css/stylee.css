@@ -1,0 +1,224 @@
+header{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+header table{
+  margin-left: 30px;
+}
+header b{
+  font-size: 16px;
+  color:blue;
+}
+header hr{
+  border-bottom: black 3px solid;
+}
+header img{
+  width: 70px;
+  height: 70px;
+}
+.login-button{
+  float: right;
+  background-color: black;
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 3px;
+}
+.login-button a{
+  color: white;
+}
+header h1{
+  color:red;
+  font-size:40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  .user-signedin{
+    float: right;
+    padding: 6px;
+    border-radius: 3px;
+  }
+  .user-signedin img{
+    width: 60px;
+    height: 60px;
+  }
+  .user-signedin a{
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+  }
+  header h3{
+    font-size: 16px;
+    color:blue;
+    position: absolute;
+    top: 170px;
+    margin-left: 30px;
+  }
+body{
+    background-color: white;
+    font-family: monospace; 
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+body a{
+    text-decoration: none;
+}
+.login{
+  font-size:17px;
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  padding: 10px;
+}
+.login h3{
+  margin: 0px;
+  margin-bottom: 2.5px;
+}
+.login h2{
+  margin-top: 0px;
+}
+.login input[type="text"],[type="password"]
+{
+border-bottom: 2px solid rgb(22, 20, 20);
+border-left: 1px solid white;
+border-top: 1px solid white;
+border-right: 1px solid white;
+background: transparent;
+outline: none;
+height: 25px;
+color: black;
+background-color: white;
+font-size: 14px;
+}
+
+.login input[type="Submit"]
+{
+border: none;
+outline: none;
+height: 30px;
+border-radius: 1px;
+width: 100px;
+background: red;
+color:white;
+font-size: 18px;
+}
+.login input[type="Submit"]:hover
+{
+cursor: pointer;
+background: green;
+color: black;
+}
+
+.right-sidebar-menu{
+  background-color: white;
+  font-size: 25px;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 7px;
+  position: fixed;
+  top: 0px;
+  right:0px;
+  height:25%;
+  width:0px;
+  z-index: 1;
+  padding-top:30px;
+  overflow-x: hidden;
+  transition: all .5s;
+
+}
+
+.sidebar-menu{
+  background-color: white;
+  font-size: 25px;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 7px;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  height:65%;
+  width:0px;
+  z-index: 1;
+  padding-top:30px;
+  overflow-x: hidden;
+  transition: all .5s;
+}
+.sidebar-menu .closebtn{
+  position: absolute;
+  color: #000;
+  cursor: pointer;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;       
+}
+.right-sidebar-menu .closebtn{
+  position: absolute;
+  color: #000;
+  cursor: pointer;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px; 
+
+}
+.sidebar-menu li{
+  background-color: black;
+  margin: 2px;
+  width: 85%;
+  padding: 10px;
+  color: white;
+  border-radius: 2px;
+}
+.sidebar-menu a{
+  color: white;
+}
+.sidebar-menu a:hover{
+  color: green;
+}
+
+
+
+.right-sidebar-menu li{
+  background-color: black;
+  margin: 2px;
+  width: 85%;
+  padding: 10px;
+  color: white;
+  border-radius: 2px;
+}
+.right-sidebar-menu a{
+  color: white;
+}
+.right-sidebar-menu a:hover{
+  color: green;
+}
+
+
+
+.art-culture{
+  margin-left: 50px;
+  font-size: 20px;
+}
+.art-culture a{
+color: black;}
+.art-culture .current{
+  color: green;
+  margin-top: 3px;
+}
+
+footer{
+    font-size: 17px;
+    padding-top: 10px;
+    border-radius:5px;
+    padding-left: 50px;
+    bottom:20px;
+    left:45px;
+    right: 45px; 
+    height:100px;
+    position:fixed;
+    background-color:rgb(241, 239, 239);
+    }
+    footer img{
+      border-radius: 50%;
+    }
